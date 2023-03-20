@@ -1,0 +1,59 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: blue;
+}
+
+h1 {
+    text-align: center;
+    color: orange;
+}
+
+#form-container {
+    display: absolute;
+    background-color: rgb(26, 179, 169);
+    border-radius: 20px;
+    height: 525px;
+    margin: 1em;
+    border: 3px solid black;
+}
+
+
+#form {
+    background-color: #73AD21;
+}
+
+input {
+    border: 3px solid darkorange;
+    padding: 50px;
+    width: 150px;
+}
+
+.input-container {
+    background-color: blueviolet;
+    padding: 100px;
+}
+
+#content {
+    margin: auto;
+    position: absolute;
+    left: 0px;
+    width: 300px;
+    border: 3px solid #73AD21;
+    padding: 10px;
+    background-color: blueviolet;
+}
+
+.main {
+    background-color: #73AD21;
+}
+
+
+div {
+    margin: 20px;
+    padding: 20px;
+}
+
+form {
+    background-color: orange;
+}

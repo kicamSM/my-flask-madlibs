@@ -1,0 +1,31 @@
+{% extends 'base.html' %}
+
+{% block title %}Home{% endblock %}
+
+{% block content %}
+<h1>Madlibs</h1>
+<main class="main"> 
+    <div id="form-container">
+        <form action="/home" id="form" background>
+            <div class="input-container">place:   
+                <input type="text" placeholder="input place" name="place" class="input">
+            </div>
+            <!-- <div>noun: 
+            <input type="text" placeholder="input noun" name="noun">
+            </div>
+            <div>verb: 
+            <input type="text" placeholder="input verb" name="verb">
+            </div>
+            <div>adjective:
+            <input type="text" placeholder="input adjective" name="adjective">
+            </div> 
+            <div>plural noun: 
+            <input type="text" placeholder="input plural noun" name="plural_noun">
+            </div>
+            <div>  -->
+            <button>Submit</button>
+            </div>
+        </form>
+    </div>
+</main>
+{% endblock %}
